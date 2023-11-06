@@ -1,0 +1,6 @@
+.fixed-btn{
+    z-index: 30;
+    &:hover{
+        content: url('../../img/btn.png');
+    }
+}
