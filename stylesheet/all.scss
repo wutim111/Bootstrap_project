@@ -6,7 +6,7 @@
 // Configuration
 @import "../node_modules/bootstrap/scss/functions";
 @import "./helper/variables";
-@import "../node_modules/bootstrap/scss/variables-dark";
+@import "./helper/variables-dark";
 @import "../node_modules/bootstrap/scss/maps";
 @import "../node_modules/bootstrap/scss/mixins";
 @import "./helper/utilities";
@@ -56,3 +56,8 @@
 @import "./componers/nav_btn";
 @import "./componers/kalam";
 @import "./componers/fixed-btn";
+@import "./componers/bg-paper";
+@import "./componers/works-img";
+@import "./componers/bg-hover-color";
+@import "./componers/card-link";
+@import "./componers/two-lines-card-text";

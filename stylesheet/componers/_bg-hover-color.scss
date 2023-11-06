@@ -1,0 +1,7 @@
+.bg-hover-color-warning{
+    &:hover,:focus{
+        background-color: $warning;
+        color: $dark;
+        border-color: $warning;
+    }
+}

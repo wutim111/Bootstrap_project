@@ -801,7 +801,13 @@ $utilities: map-merge(
       values: $zindex-levels,
     ),
     // scss-docs-end utils-zindex
-    
+    "background-image": (
+      property: background-image,
+      class: bg-dark,
+      values: (
+        gradient:linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,0.5))
+      ),
+    ),
   ),
   $utilities
 );

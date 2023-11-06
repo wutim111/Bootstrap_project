@@ -1,6 +1,6 @@
 .fixed-btn{
     z-index: 30;
-    &:hover{
+    &:hover,:focus{
         content: url('../../img/btn.png');
     }
 }
