@@ -7609,6 +7609,10 @@ textarea.form-control-lg {
   width: 75% !important;
 }
 
+.w-85 {
+  width: 85% !important;
+}
+
 .w-100 {
   width: 100% !important;
 }
@@ -12027,4 +12031,16 @@ textarea.form-control-lg {
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.img-hover-effect-1:hover img {
+  content: url(../../img/dog01-hover-1.png);
+}
+
+.img-hover-effect-2:hover img {
+  content: url(../../img/dog01-hover.png);
+}
+
+.img-hover-effect-3:hover img {
+  content: url(../../img/dog01-hover-2.png);
 }/*# sourceMappingURL=all.css.map */
