@@ -11993,9 +11993,6 @@ textarea.form-control-lg {
   font-family: "Kalam", cursive;
 }
 
-.fixed-btn {
-  z-index: 30;
-}
 .fixed-btn:hover, .fixed-btn :focus {
   content: url("../../img/btn.png");
 }
@@ -12256,4 +12253,28 @@ textarea.form-control-lg {
     border-top: 1px solid #dee2e6 !important;
     border-bottom: 1px solid #dee2e6 !important;
   }
+}
+.dialog {
+  outline: solid 2px black;
+  position: relative;
+}
+.dialog::after {
+  content: "";
+  position: absolute;
+  border-top: 10px solid white;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-bottom: 0px solid transparent;
+  bottom: -8px;
+  left: 45%;
+}
+.dialog::before {
+  content: "";
+  position: absolute;
+  border-top: 10px solid black;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-bottom: 0px solid transparent;
+  bottom: -10px;
+  left: 45%;
 }/*# sourceMappingURL=all.css.map */
