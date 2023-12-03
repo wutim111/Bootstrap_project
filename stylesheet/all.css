@@ -7497,6 +7497,10 @@ textarea.form-control-lg {
   border-top: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
 }
 
+.border-top-warning {
+  border-top: 3px var(--bs-border-style) var(--bs-warning) !important;
+}
+
 .border-top-0 {
   border-top: 0 !important;
 }
@@ -12680,4 +12684,18 @@ textarea.form-control-lg {
   border-bottom: 0px solid transparent;
   bottom: -10px;
   left: 45%;
+}
+
+.list-hover:hover {
+  color: #F9C745 !important;
+}
+.list-hover:hover::before {
+  content: "-";
+}
+
+.list-hover-on-hover {
+  color: #F9C745 !important;
+}
+.list-hover-on-hover::before {
+  content: "-";
 }/*# sourceMappingURL=all.css.map */

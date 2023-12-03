@@ -1,0 +1,14 @@
+.list-hover{
+    &:hover{
+        color:#F9C745!important;
+        &::before{
+            content: '-';
+        }
+    }
+}
+.list-hover-on-hover{
+    color:#F9C745!important;
+    &::before{
+        content: '-';
+    }
+}
