@@ -12438,15 +12438,15 @@ textarea.form-control-lg {
 }
 
 .img-hover-effect-1:hover img {
-  content: url(../../img/dog01-hover-1.png);
+  content: url(../img/dog01-hover-1.png);
 }
 
 .img-hover-effect-2:hover img {
-  content: url(../../img/dog01-hover.png);
+  content: url(../img/dog01-hover.png);
 }
 
 .img-hover-effect-3:hover img {
-  content: url(../../img/dog01-hover-2.png);
+  content: url(../img/dog01-hover-2.png);
 }
 
 .border-top {
